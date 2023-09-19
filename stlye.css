@@ -136,3 +136,101 @@ nav form .search-btn img:hover {
 nav .nav-search::placeholder {
   color: var(--grey);
 }
+
+main {
+  margin: 30px 72px 62px 72px;
+}
+
+.left-section {
+  width: 856px;
+}
+.left-section .first-div {
+  height: 480px;
+  margin: 0 24px 32px 0;
+}
+
+.left-section .first-div .first-div-text {
+  height: 216px;
+}
+
+.hero-picture {
+  position: relative;
+  display: inline-block;
+}
+
+.hero-picture .hero-picture-div {
+  color: var(--white);
+  background: linear-gradient(0deg, #363636 0%, rgba(54, 54, 54, 0) 100%);
+  position: absolute;
+  bottom: 0%;
+  padding: 28px 20px 20px 20px;
+}
+
+.hero-picture .hero-picture-div h5 {
+  overflow: hidden;
+  color: var(--white);
+  text-overflow: ellipsis;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-weight: 800;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+.title {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 32px;
+  background-color: var(--green);
+  transform: skewX(-30deg);
+}
+
+.title img {
+  width: 20px;
+  height: 20px;
+  transform: skewX(30deg);
+  margin-right: 4px;
+}
+
+.title h4 {
+  color: var(--Fehr, #fff);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  transform: skewX(30deg);
+  font-family: "Inter", sans-serif;
+}
+
+.first-div .first-div-text h5 {
+  width: 816px;
+  height: 120.251px;
+  font-size: 32px;
+  line-height: 40px;
+  margin-top: 19px;
+}
+.left-section .first-div .first-div-text .title {
+  margin-top: 28px;
+}
+.second-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-div .second-div-section-1 {
+  width: 416px;
+  height: 233px;
+}
+
+.second-div .second-div-section-1 h5 {
+  margin-top: 15px;
+  width: 376px;
+  height: 65px;
+  overflow: hidden;
+  font-size: 24px;
+  line-height: 32px;
+}
